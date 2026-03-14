@@ -1,0 +1,32 @@
+v1 = [100,120,90,150];
+v2 = [80,200,110,130];
+v3 = [160,170,150,190];
+
+mostrar("REPORTE DE VENTAS DEL CUATRIMESTRE");
+
+mostrar("VENTA TOTAL EMPRESA:");
+mostrar(suma(v1)+suma(v2)+suma(v3));
+
+mostrar("VENTAS POR VENDEDOR");
+
+mostrar("Vendedor 1:");
+mostrar(suma(v1));
+
+mostrar("Vendedor 2:");
+mostrar(suma(v2));
+
+mostrar("Vendedor 3:");
+mostrar(suma(v3));
+
+mostrar("PUNTO CRITICO DE VENTAS DE LA EMPRESA");
+
+mostrar("Venta minima global:");
+mostrar(min(v1));
+
+mostrar("Venta maxima global:");
+mostrar(max(v2));
+
+mostrar("REPORTE ESTADISTICO:");
+mostrar(resumen(v1));
+mostrar(resumen(v2));
+mostrar(resumen(v3));
